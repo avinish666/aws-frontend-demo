@@ -20,7 +20,7 @@ const Login = () => {
     try {
       setLoading(true);
 
-      const res = await axios.post("http://3.27.145.95:5000/login", {
+      const res = await axios.post("https://3.27.145.95:5000/login", {
         email: email,
         password: password,
       });
